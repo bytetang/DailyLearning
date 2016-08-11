@@ -13,4 +13,6 @@
 <li>Android/IOS</li>
 </ui>
 
+Vue.js是一个灵活的前端组件化框架，支持响应式的数据绑定，并且有类似于Android/IOS的生命周期。可以进入[Vue.js官网教程](https://vuejs.org.cn/guide/"Title") 学习.
+
 
