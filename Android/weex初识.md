@@ -16,3 +16,44 @@
 Vue.js是一个灵活的前端组件化框架，支持响应式的数据绑定，拥有自己的实例生命周期。可以进入[Vue.js官网教程](https://vuejs.org.cn/guide/"Title") 学习.
 
 
+### 1、A Simple Vue.js example ###
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+     <script type="text/javascript" src="http://cdn.jsdelivr.net/vue/1.0.7/vue.min.js" ></script>
+     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.7/vue.min.js"></script>
+</head>
+<body>
+	 <div class="container">
+        <div class="col-md-6 col-md-offset-3">
+            <h1>Vue example3</h1>
+            <div id="app">
+	           <p>{{message}}</p>
+	           <button v-on:click="revertMessage">Revert Message</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+    	new Vue({
+    		el:'#app',
+    		data:{
+    			message:'hello vue.js'
+    		},
+    		methods:{
+    			revertMessage:function(){
+    				this.message = this.message.split('').reverse().join('')
+    			}
+    		}
+    	})
+    </script>
+</body>
+</html>
+```
+new Vue创建出一个Vue实例，{{message}}语法可实现双向的绑定，Vue实例中提供message属性的值。在html和Vue实例之间亦可简单的完成事件的绑定操作。
+
+
