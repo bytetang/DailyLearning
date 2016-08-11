@@ -58,8 +58,8 @@ new Vue创建出一个Vue实例，{{message}}语法可实现双向的绑定，Vu
 
 ### 2、基于Vue.js的weex文件 ###
 weex的安装步骤先安装nodejs，使用npm安装weex工具，[步骤详情](https://github.com/alibaba/weex).
-weex基于weex，主要有三个模块<template>、<style>、<script>。
-```
+weex基于weex，主要有三个模块```<template>```、```<style>```、```<script>```。
+```html
 <template>
   <!-- (required) the structure of page -->
 </template>
