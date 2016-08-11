@@ -73,3 +73,7 @@ weex基于weex，主要有三个模块```<template>```、```<style>```、```<scr
 </script>
 ```
 
+A Simple Weex Example
+
+明天继续。。。。
+
