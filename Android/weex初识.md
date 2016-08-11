@@ -56,4 +56,20 @@ Vue.js是一个灵活的前端组件化框架，支持响应式的数据绑定�
 ```
 new Vue创建出一个Vue实例，{{message}}语法可实现双向的绑定，Vue实例中提供message属性的值。在html和Vue实例之间亦可简单的完成事件的绑定操作。
 
+### 2、基于Vue.js的weex文件 ###
+weex的安装步骤先安装nodejs，使用npm安装weex工具，[步骤详情](https://github.com/alibaba/weex).
+weex基于weex，主要有三个模块<template>、<style>、<script>。
+```
+<template>
+  <!-- (required) the structure of page -->
+</template>
+
+<style>
+  /* (optional) stylesheet */
+</style>
+
+<script>
+  /* (optional) the definition of data, methods and life-circle */
+</script>
+```
 
