@@ -74,7 +74,7 @@ weex基于weex，主要有三个模块```<template>```、```<style>```、```<scr
 ```
 
 语法和Vue.js基本类似，在temp中定义你的界面内容，style中定义内容样式，同样可以是用绑定的语法,如
-``` <text style="font-size: {{fontSize}};">Alibaba</text>``` 。script中提供数据的绑定和事件的处理等，weex具有生命周期，在script
+```html <text style="font-size: {{fontSize}};">Alibaba</text>``` 。script中提供数据的绑定和事件的处理等，weex具有生命周期，在script
 可以在对生命周期的控制中分别控制不同的逻辑，如create、ready、computed等。
 
 
