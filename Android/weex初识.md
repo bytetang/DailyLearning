@@ -83,24 +83,29 @@ Weex的文档的确是值得吐槽的。官方的Demo想跑起来遇坑无数，
 
 最终参照这篇文章<a href="http://blog.csdn.net/jizi7618937/article/details/51611629"></a>利用npm解决依赖。得有解决。
 使用下面方式打包js并运行在浏览器上：
-1、安装webpack
+<p>
+1、安装webpack<br>
 npm install webpack
-
+</p>
+<p>
 2、解决依赖
-npm run build
-需要在喻package.json文件统一位置文件下执行
-
-4、打包js
-npm run build //会生成在build目录下生成js文件
-
-5、chrome运行
-npm run serve & 
+npm run build<br>
+需要在喻package.json文件统一位置文件下执行<br>
+</p>
+<p>
+4、打包js<br>
+npm run build //会生成在build目录下生成js文件<br>
+</p>
+<p>
+5、chrome运行<br>
+npm run serve & <br>
 > 注意是命令关键字是serve 不是 server
-
-weex项目发布在12580端口
-weex@0.4.0 serve /Users/tangjie/projects/weex
+</p>
+<p>
+weex项目发布在12580端口<br>
+weex@0.4.0 serve /Users/tangjie/projects/weex<br>
 serve ./ -p 12580
-
+<p>
 使用浏览器访问http://127.0.0.1:12580/
 
 
