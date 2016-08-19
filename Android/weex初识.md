@@ -85,20 +85,20 @@ Weex的文档的确是值得吐槽的。官方的Demo想跑起来遇坑无数，
 使用下面方式打包js并运行在浏览器上：
 <p>
 1、安装webpack<br>
-``` npm install webpack```
+npm install webpack
 </p>
 <p>
 2、解决依赖
-``` npm run build```<br>
+npm run build<br>
 需要在喻package.json文件统一位置文件下执行
 </p>
 <p>
 4、打包js<br>
-``` npm run build``` //会生成在build目录下生成js文件<br>
+npm run build //会生成在build目录下生成js文件<br>
 </p>
 <p>
 5、chrome运行<br>
-``` npm run serve &``` <br>
+npm run serve & <br>
 >注意是命令关键字是serve 不是 server
 </p>
 <p>
