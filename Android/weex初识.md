@@ -106,7 +106,9 @@ weex项目发布在12580端口<br>
 weex@0.4.0 serve /Users/tangjie/projects/weex<br>
 serve ./ -p 12580
 <p>
-使用浏览器访问http://127.0.0.1:12580/
+使用浏览器访问http://127.0.0.1:12580/<br>
+![Alt text](/path/to/img.jpg)
+
 
 
 
