@@ -107,7 +107,7 @@ weex@0.4.0 serve /Users/tangjie/projects/weex<br>
 serve ./ -p 12580
 <p>
 使用浏览器访问http://127.0.0.1:12580/<br>
-![Alt text](/path/to/img.jpg)
+![Alt text](https://github.com/tangchiech/UpLearn/blob/master/Android/pics/weex_run.png)
 
 
 
