@@ -77,4 +77,34 @@ weex基于weex，主要有三个模块```<template>```、```<style>```、```<scr
 ```html <text style="font-size: {{fontSize}};">Alibaba</text>``` 。script中提供数据的绑定和事件的处理等，weex具有生命周期，在script
 可以在对生命周期的控制中分别控制不同的逻辑，如create、ready、computed等。
 
+### 3、官方demo ###
+Weex的文档的确是值得吐槽的。官方的Demo想跑起来遇坑无数，weex文件最终还是得打包成js文才能被执行。使用weex自带打包工具weex-toolkit
+整体打包各种依赖报错，如require("**module")。issue里面说需要在注销依赖才能打包成功，额。。。
+
+最终参照这篇文章<a href="http://blog.csdn.net/jizi7618937/article/details/51611629"/>利用npm解决依赖。得有解决。
+使用下面方式打包js并运行在浏览器上：
+1、安装webpack
+npm install webpack
+
+2、解决依赖
+npm run build
+需要在喻package.json文件统一位置文件下执行
+
+4、打包js
+npm run build //会生成在build目录下生成js文件
+
+5、chrome运行
+npm run serve & 
+> 注意是命令关键字是serve 不是 server
+
+weex项目发布在12580端口
+> weex@0.4.0 serve /Users/tangjie/projects/weex
+> serve ./ -p 12580
+
+使用浏览器访问http://127.0.0.1:12580/
+
+
+
+
+
 
