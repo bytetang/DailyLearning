@@ -78,10 +78,10 @@ weex基于weex，主要有三个模块```<template>```、```<style>```、```<scr
 可以在对生命周期的控制中分别控制不同的逻辑，如create、ready、computed等。
 
 ### 三、官方demo ###
-Weex的文档的确是值得吐槽的。官方的Demo想跑起来遇坑无数，weex文件最终还是得打包成js文才能被执行。使用weex自带打包工具weex-toolkit
+Weex的文档的确是值得吐槽的。官方的Demo想跑起来遇坑无数，weex文件最终得打包成js文才能被执行。使用weex自带打包工具weex-toolkit
 整体打包各种依赖报错，如require("**module")。issue里面说需要在注销依赖才能打包成功，额。。。
 
-最终参照这篇文章<a href="http://blog.csdn.net/jizi7618937/article/details/51611629"></a>利用npm解决依赖。得有解决。
+最终参照这篇文章<a href="http://blog.csdn.net/jizi7618937/article/details/51611629">点击访问</a>利用npm解决依赖。得有解决。
 使用下面方式打包js并运行在浏览器上：
 <p>
 1、安装webpack<br>
