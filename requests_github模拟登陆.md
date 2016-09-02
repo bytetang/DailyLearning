@@ -41,8 +41,8 @@ def getToken():
 
 
 def userpwdLogin():
-    payload = {'login': 'tangchiech',
-               'password': '197792tj',
+    payload = {'login': 'loginname',
+               'password': 'pwd',
                'commit': 'Sign+in',
                'authenticity_token': getToken(),
                'utf8': '%E2%9C%93'}
