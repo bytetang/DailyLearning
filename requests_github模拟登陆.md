@@ -1,4 +1,4 @@
-学了了下python requests 以及文本处理和正则工具re,顺便应用一下，使用requests模拟登陆github网站
+学习了下python requests 以及文本处理和正则工具re,顺便应用一下，使用requests模拟登陆github网站
 
 准备：
 - pip install requests
