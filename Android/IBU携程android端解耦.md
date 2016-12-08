@@ -1,4 +1,4 @@
-今天是googledevelopers.cn开放的日子。相信国内的应用开发环境会越来越好。
+今天是![Alt text](https://developers.google.cn/)开放的日子。相信国内的应用开发环境会越来越好。<br>
 来携程IBU有段日子了，因为是新开展的国际业务，业务庞杂，前期为了短平快的开发，但是到了后面随着需求业务的增长和团队的壮大越来新功能的开发变得越来越困难。主要是存在几个方面：
 
 * 多产线公用组件，业务代码揉进了组件离。
@@ -48,4 +48,7 @@
 2、抽出Business Module处理部分产线公用部分（尽量干净）。Business Module负责提供module依赖的接口。如：其他的上层module想调用pay，通过business module转发，不直接依赖pay module。所有mouldle只依赖business module的api。business module的api不更改，pay即使更新其他模块也不受影响。<br>
 3、主程序只负责维护自己业务代码。<br>
 
-
+<p>
+4、针对接口问题
+</p>
+这个比较简单，编码习惯上保证页面传值的实体传递尽量不要传递接口。多使用组合+集成的方式拓展接口。
