@@ -25,7 +25,7 @@
 <p>
 2、针对公用页面<br>有些业务比较类似或者期初一样的页面，都放在一起处理。不同的产线或者统一产线的不同入口都会跳转同一个页面。例如，火车票和机票使用同一个常用联系人页面ContantListActivity。随着业务变化，页面差别越来越大不能共用了。此时每个业务都要自己的ContantListActivity，如FligthContanListActivity/TrainContanListActivity.对应的产线处理维护自己的ContantListAcvitity.
 
-先看一个起初的依赖关系：
+先看一个起初的依赖关系：<br>
 ![Alt text](https://github.com/tangchiech/UpLearn/blob/master/Android/pics/pre_dependency.png)
 
 <p>
