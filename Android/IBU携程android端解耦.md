@@ -25,10 +25,10 @@
 <p>
 2、针对公用页面<br>有些业务比较类似或者期初一样的页面，都放在一起处理。不同的产线或者统一产线的不同入口都会跳转同一个页面。例如，火车票和机票使用同一个常用联系人页面ContantListActivity。随着业务变化，页面差别越来越大不能共用了。此时每个业务都要自己的ContantListActivity，如FligthContanListActivity/TrainContanListActivity.对应的产线处理维护自己的ContantListAcvitity.
 
+<p>
+3、针对module关系的解耦。
+</p>
 先看一个起初的依赖关系<br>
-
-
-
 ![Alt text](https://github.com/tangchiech/UpLearn/blob/master/Android/pics/pre_dependency.png)
 
 <p>
@@ -42,6 +42,10 @@
 改造后的依赖关系<br>
 ![Alt text](https://github.com/tangchiech/UpLearn/blob/master/Android/pics/now-dependency.png)
 
+
+优势:<br>
 1、抽离Base Module 提供所有module的依赖基础，其他module不用重复造轮子。<br>
 2、抽出Business Module处理部分产线公用部分（尽量干净）。Business Module负责提供module依赖的接口。如：其他的上层module想调用pay，通过business module转发，不直接依赖pay module。所有mouldle只依赖business module的api。business module的api不更改，pay即使更新其他模块也不受影响。<br>
 3、主程序只负责维护自己业务代码。<br>
+
+
