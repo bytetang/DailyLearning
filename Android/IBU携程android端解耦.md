@@ -29,9 +29,12 @@
 ![Alt text](https://github.com/tangchiech/UpLearn/blob/master/Android/pics/pre_dependency.png)
 
 <p>
-弊端：
+弊端：<br>
 1、部分base揉进了app主程序里面，其他module可能需要使用就需要自己造轮子或者去倒置依赖app主模块。<br>
 2、module之间可能会造成互相依赖，如其他module想引用使用pay功能，就需要在module里面去交叉 dependency pay module<br>
 3、没有提取不常修改的moudle，module需要频繁修改。主程序只能通过project dependency ,编译效率低。<br>
 4、module抽象差频繁修改上游模块，影响面积大。<br>
 </p>
+
+改造后的依赖关系<br>
+![Alt text](https://github.com/tangchiech/UpLearn/blob/master/Android/pics/now-dependency.png)
