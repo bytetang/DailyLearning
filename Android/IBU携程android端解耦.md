@@ -24,3 +24,14 @@
 </p>
 <p>
 2、针对公用页面<br>有些业务比较类似或者期初一样的页面，都放在一起处理。不同的产线或者统一产线的不同入口都会跳转同一个页面。例如，火车票和机票使用同一个常用联系人页面ContantListActivity。随着业务变化，页面差别越来越大不能共用了。此时每个业务都要自己的ContantListActivity，如FligthContanListActivity/TrainContanListActivity.对应的产线处理维护自己的ContantListAcvitity.
+
+先看一个起初的依赖关系：
+![Alt text](https://github.com/tangchiech/UpLearn/blob/master/Android/pics/pre_dependency.png)
+
+<p>
+弊端：
+1、部分base揉进了app主程序里面，其他module可能需要使用就需要自己造轮子或者去倒置依赖app主模块。<br>
+2、module之间可能会造成互相依赖，如其他module想引用使用pay功能，就需要在module里面去交叉 dependency pay module<br>
+3、没有提取不常修改的moudle，module需要频繁修改。主程序只能通过project dependency ,编译效率低。<br>
+4、module抽象差频繁修改上游模块，影响面积大。<br>
+</p>
