@@ -11,7 +11,9 @@ The features of UI knowledge will be forgotten soon if a long time without revie
 these pairs represent the opposite meaning.  
 
 `OnCreate` <-> `OnDestroy`
+
 `OnStart` <-> `OnStop`  
+
 `OnResume` <-> `OnPause` 
 
 ## Orders ##
