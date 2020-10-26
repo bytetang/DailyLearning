@@ -59,7 +59,7 @@ Deferred DeepLink本质上的技术还是Deeplink技术，可以理解为一�
 以Referrer为例，如下图
 其他方式Android/IOS区别在于First open判断的数据不一样。
 
-![](../pics/deffered_deeplink.png)
+![deeplink](../pics/deffered_deeplink.png)
 
 
 <h1>App Link优化</h1>

@@ -29,7 +29,8 @@
 3、针对module关系的解耦。
 </p>
 先看一个起初的依赖关系<br>
-![pre_dependency](../pics/pre_dependency.png)
+
+![pre_dependency] (../pics/pre_dependency.png)
 
 <p>
 弊端：<br>
@@ -40,7 +41,8 @@
 </p>
 
 改造后的依赖关系<br>
-![Alt text](https://github.com/tangchiech/UpLearn/blob/master/Android/pics/now-dependency.png)
+
+![index page](../pics/now-dependency.png)
 
 
 优势:<br>
