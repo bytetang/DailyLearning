@@ -3,17 +3,19 @@
 
 [Android](Android)
 
-&emsp;&emsp;&emsp; [自动化之实现增量代码覆盖率] Android/%E8%87%AA%E5%8A%A8%E5%8C%96%E4%B9%8B%E5%AE%9E%E7%8E%B0%E5%A2%9E%E9%87%8F%E4%BB%A3%E7%A0%81%E8%A6%86%E7%9B%96%E7%8E%87.md
+&emsp;&emsp;&emsp; [自动化之实现增量代码覆盖率](Android/%E8%87%AA%E5%8A%A8%E5%8C%96%E4%B9%8B%E5%AE%9E%E7%8E%B0%E5%A2%9E%E9%87%8F%E4%BB%A3%E7%A0%81%E8%A6%86%E7%9B%96%E7%8E%87.md)
+
+&emsp;&emsp;&emsp; [Android多线程编程全面解析](Android/Android%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%BC%96%E7%A8%8B%E5%85%A8%E9%9D%A2%E8%A7%A3%E6%9E%90.md)
 
 &emsp;&emsp;&emsp; [AndroidCodeReviewRules](Android/AndroidCodeReviewRules.md)
 
-&emsp;&emsp;&emsp; [Android多线程编程全面解析](Android/Android%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%BC%96%E7%A8%8B%E5%85%A8%E9%9D%A2%E8%A7%A3%E6%9E%90.md)
+&emsp;&emsp;&emsp; [IntentFlag&ActivityStack](Android/IntentFlag%26ActivityStack.md)
 
 &emsp;&emsp;&emsp; [ApplinksWorkFlow](Android/ApplinksWorkFlow.md)
 
 &emsp;&emsp;&emsp; [IBU携程android端解耦](Android/IBU%E6%90%BA%E7%A8%8Bandroid%E7%AB%AF%E8%A7%A3%E8%80%A6.md)
 
-&emsp;&emsp;&emsp; [IntentFlag&ActivityStack](Android/IntentFlag%26ActivityStack.md)
+
 
 &emsp;&emsp;&emsp; [weex初识](Android/weex%E5%88%9D%E8%AF%86.md)
 
