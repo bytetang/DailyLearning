@@ -465,4 +465,4 @@ if (context != null && !context.isFinishing()) {
 不要随意使用 FragmentTransaction#commitAllowingStateLoss()来代替，任何commitAllowingStateLoss()的使用必须经过 code review，确保无负面影响。
 
 
-![index page](/pics/images/activity_lifecycle.png)
+![index page](pics/activity_lifecycle.png)
