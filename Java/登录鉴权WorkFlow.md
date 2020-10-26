@@ -8,7 +8,7 @@
 
 SSO这是一个概念方案，其中有我们经常听到的著名的耶鲁大学的CAS系统就是它的一个实现。具体可以了解 [CAS Architecture](https://link.zhihu.com/?target=https%3A//apereo.github.io/cas/4.2.x/planning/Architecture.html)，其工程流程图如下：
 
-![avatar](/pics/images/cas/cas.jpeg)
+![avatar](../pics/cas/cas.jpeg)
 
 其中核心要解决的的是引入鉴权和认证的流程，实现多套系统的单一访问需要的是同一套授权方案即可。
 
