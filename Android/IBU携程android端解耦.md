@@ -28,9 +28,10 @@
 <p>
 3、针对module关系的解耦。
 </p>
+
 先看一个起初的依赖关系<br>
 
-![pre_dependency] (../pics/pre_dependency.png)
+![pre dependency](../pics/pre_dependency.png)
 
 <p>
 弊端：<br>
